@@ -1,0 +1,48 @@
+/* Additional component styles */
+.card {
+  @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+}
+
+.stat-card {
+  @apply bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg p-6 border border-blue-100;
+}
+
+.metric-value {
+  @apply text-3xl font-bold text-gray-900;
+}
+
+.metric-label {
+  @apply text-sm font-medium text-gray-600 mt-1;
+}
+
+.table-container {
+  @apply overflow-x-auto rounded-lg border border-gray-200;
+}
+
+.data-table {
+  @apply min-w-full divide-y divide-gray-200;
+}
+
+.data-table thead {
+  @apply bg-gray-50;
+}
+
+.data-table th {
+  @apply px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider;
+}
+
+.data-table td {
+  @apply px-6 py-4 whitespace-nowrap text-sm;
+}
+
+.data-table tbody {
+  @apply bg-white divide-y divide-gray-200;
+}
+
+.confidence-bar {
+  @apply h-2 rounded-full overflow-hidden bg-gray-200;
+}
+
+.confidence-fill {
+  @apply h-full transition-all duration-300;
+}
